@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Information about my page</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700%7CRaleway:400,700" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/master.css" />
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" href="remeliai.css">
+    </head>
+    <body>
+        <h1>table - colspan, rowspan</h1>
+            <table>
+            <tbody>
+                <tr>
+                    <td colspan="2">A1</td>
+                    <td>A2</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td rowspan="2">B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>C1</td>
+                    <td>C2</td>
+                </tr>
+                <tr>
+                    <td>D1</td>
+                    <td>D2</td>
+                    <td>D3</td>
+                </tr>
+            </tbody>
+            </table>
+        <h1>table</h1>
+        <p>Skolininkai</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nr</th>
+                        <th>Vardas</th>
+                        <th>Skola</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Jonas Petras Martynas</td>
+                        <td>100.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Petras</td>
+                        <td>200.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <th>Viso:</th>
+                        <td>300.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <h1>table</h1>
+            <table>
+                <thead>
+                <tr>
+                    <th>Nr</th>
+                    <th>Vardas</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Jonas Petras Martynas</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Petras</td>
+                    </tr>
+                <tbody>
+            </table>
+            <h2>Elementai form ir input</h2>
+            <form class="" action="index.html" method="post">
+            <label for="name">Vardas:</label>
+            <input type="text" id="name" name="Vardas" />
+            <label for="surname">Pavardė:</label>
+            <input type="text" name="Pavardė" id="surname" placeholder="Čia įveskite savo pavardę" size="25" maxlength="30" />
+            <select class="" name="skaiciai">
+                <option value="2">Du</option>
+                <option value="3">Trys</option>
+            </select>
+            <label for="mygtukas"></label>
+            <input type="button" id="mygtukas" value="Prisijungti">
+            </form>
+            <h1>Antraštė</h1>
+            <p>Kažkoks tekstas</p>
+            <hr>
+            <h2>Paveiksliukai</h2>
+                <div class="">
+                    <img src="https://g1.dcdn.lt/glt/c/delfi-header/l/delfi_og.png"  height="95" alt="Delfi logo">
+                </div>
+                <div class="">
+                    <img src="https://g1.dcdn.lt/glt/c/delfi-header/l/delfi_og.png"  height="40" alt="Delfi logo small">
+                </div>
+            <hr>
+            <h2>Mygtukai</h2>
+                <button type="button" name="Mygtukas A">Mygtukas A</button>
+            <br>
+                <button type="button" name="Mygtukas B">Mygtukas B</button>
+                <button type="button" name="Mygtukas C">Mygtukas C</button>
+    </body>
