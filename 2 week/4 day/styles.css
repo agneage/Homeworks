@@ -1,0 +1,35 @@
+body {
+    width: auto;
+    margin: 0 auto;}
+    header {
+        background-color: grey;
+        text-align: center;
+        width: 100%;
+        color: white
+        padding: 20px 20px 20px 20px;
+        display: inline-block;
+    }
+    .nav_li {
+        display: inline-block;
+        padding: 20px 10px 20px 10px;
+    }
+    h1
+    nav {
+        padding: 10px;
+        color: white;
+    }
+    .main_text {
+        background-color: #6500ff;
+        padding: 20px 10px 20px 10px;
+    }
+    .Copyright {
+        background-color: white;
+    }
+    .footer {
+        width: 100%;
+        display: inline-block;
+        background-color: black;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+    }
