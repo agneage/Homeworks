@@ -1,0 +1,44 @@
+
+.one{
+    border-collapse: collapse;
+    background-color: #7faace;
+    border: 2px solid #000000;
+}
+.w{
+    background-color: #cecdcd;
+    border: 2px solid #000000;
+    padding: 10px 5px 10px 5px;
+height: 50px;
+}
+.b{
+    background-color: #192719;
+    border: 2px solid #000000;
+    padding: 10px 10px 10px 10px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+}
+th {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+.left-letters{
+    color: #000000;
+    font-size: 15px;
+    transform: rotate(-90deg);
+}
+.right-letters{
+    color: #000000;
+    font-size: 15px;
+    transform: rotate(90deg);
+}
+.apversti-skaiciai {
+    transform: rotate(180deg);
+    text-align: center;
+    color: #000000;
+}
