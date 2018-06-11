@@ -1,0 +1,47 @@
+body {
+    font-family: 'Merriweather', serif;
+    width: auto;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 70px 70px 70px 70px;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    font-weight: bold;
+}
+h3:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    color: #919191;
+    font-size: 12px;
+}
+p:nth-child(6n+0) {
+    background-color: #c1c1c1;
+    padding: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+article:nth-child(even) {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+}
+article > a {
+    border: 1px solid #a1a1a1;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+img {
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
